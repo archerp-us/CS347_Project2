@@ -1,0 +1,70 @@
+/*
+ * Main stylesheet
+*/
+
+html {
+    background: lightblue;
+    background-size: cover;
+  }
+
+body {
+    font-family: 'verdana';
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+
+/* Menu */
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 8px 16px;
+    color: Black;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+nav ul li a:hover {
+    box-shadow: 0 0 10px whitesmoke, inset 0 0 1px whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+
+/* New User From */
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #0EBFE9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: skyblue;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    min-width: 360px;
+    width: 75%;
+    height: auto;
+    font-family: "verdana";
+    margin: auto;
+}
